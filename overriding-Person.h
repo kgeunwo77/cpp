@@ -21,8 +21,8 @@ public:
 	void talk();
 	~Person() {}
 };
-//±âÃÊÅ¬·¡½º¸¦ ¼±¾ðÇÕ´Ï´Ù. tellº¯¼ö´Â »ó¼ÓÀÌ ºÒ°¡´ÉÇØ¾ßÇÏ±â ¶§¹®¿¡ private¿¡¼­ ¼±¾ðÇÕ´Ï´Ù.
-//»ç¿ëÇÒ ÇÔ¼ö¸¦ ¼±¾ðÇÕ´Ï´Ù.
+//ê¸°ì´ˆí´ëž˜ìŠ¤ë¥¼ ì„ ì–¸í•©ë‹ˆë‹¤. tellë³€ìˆ˜ëŠ” ìƒì†ì´ ë¶ˆê°€ëŠ¥í•´ì•¼í•˜ê¸° ë•Œë¬¸ì— privateì—ì„œ ì„ ì–¸í•©ë‹ˆë‹¤.
+//ì‚¬ìš©í•  í•¨ìˆ˜ë¥¼ ì„ ì–¸í•©ë‹ˆë‹¤.
 
 class Student :public Person {
 public:
@@ -47,4 +47,4 @@ public:
 	void talk();
 	~Professor() {}
 };
-//°¢°¢ÀÇ ÆÄ»ýÅ¬·¡½ºµéÀ» ¸¸µé¾îÁÝ´Ï´Ù. ¿À¹ö¶óÀÌµùÀ» ÅëÇØ ÆÄ»ýÅ¬·¡½º¿¡¼­ »ç¿ëÇÒ ÇÔ¼öµéÀÇ ÀÌ¸§Àº ±âÃÊÅ¬·¡½ºÀÇ ÇÔ¼ö ÀÌ¸§°ú °°½À´Ï´Ù.
+//ê°ê°ì˜ íŒŒìƒí´ëž˜ìŠ¤ë“¤ì„ ë§Œë“¤ì–´ì¤ë‹ˆë‹¤. ì˜¤ë²„ë¼ì´ë”©ì„ í†µí•´ íŒŒìƒí´ëž˜ìŠ¤ì—ì„œ ì‚¬ìš©í•  í•¨ìˆ˜ë“¤ì˜ ì´ë¦„ì€ ê¸°ì´ˆí´ëž˜ìŠ¤ì˜ í•¨ìˆ˜ ì´ë¦„ê³¼ ê°™ìŠµë‹ˆë‹¤.
